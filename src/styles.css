@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.StatWidget {
+  width: 200px;
+  border-width: 3px;
+  border-radius: 2px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 20px;
+  display: inline-block;
+  background-color: #ffffff;
+}
+
+.StatWidget > h1 {
+  text-align: center;
+}
+
+.Profile {
+  text-align: center;
+}
+
+.Stats {
+  margin-left: 25%;
+  text-align: left;
+}
+
+.Switch {
+  display: flex;
+  flex-direction: column;
+}
